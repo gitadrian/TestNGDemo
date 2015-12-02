@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="myName" value=""/>
+  <test name="Test(failed)" parallel="none" preserve-order="true">
+    <parameter name="myName" value=""/>
+    <classes>
+      <class name="com.stk.testng.hellotestng.com.stk.testng.hellotestng.ExampleTest">
+        <methods>
+          <include name="print"/>
+          <include name="after"/>
+          <include name="parameterTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.stk.testng.hellotestng.com.stk.testng.hellotestng.ExampleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
