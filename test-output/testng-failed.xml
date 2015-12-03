@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
-  <parameter name="myName" value=""/>
+  <parameter name="lastName" value="castro"/>
+  <parameter name="myName" value="adrian"/>
   <test name="Test(failed)" parallel="none" preserve-order="true">
-    <parameter name="myName" value=""/>
+    <parameter name="lastName" value="castro"/>
+    <parameter name="myName" value="adrian"/>
     <classes>
       <class name="com.stk.testng.hellotestng.com.stk.testng.hellotestng.ExampleTest">
         <methods>

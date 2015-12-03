@@ -4,7 +4,7 @@
   <test name="Test">
   
   	<parameter name="myName" value="adrian"/> 
-  
+  	<parameter name="lastName" value="castro"/> 
     <classes>
       <class name="com.stk.testng.hellotestng.com.stk.testng.hellotestng.ExampleTest"/>
     </classes>
